@@ -161,10 +161,10 @@ def gerar_bpmn_com_lanes(passos):
 
 # Streamlit UI
 st.set_page_config(page_title="Mapeador de Fluxo BPMN By Guilherme Joji", layout="centered")
-st.title("Mapeador de Fluxo BPMN com Lanes e Setas - By Guilherme Joji")
+st.title("Mapeador de Fluxo BPMN By Guilherme Joji")
 
 st.markdown("""
-## 📝 Como usar este app
+## Como usar este app
 
 1. **Transcreva o áudio ou vídeo em um `.txt`.**  
    Ferramenta recomendada: link
@@ -177,6 +177,17 @@ st.markdown("""
 """)
 
 uploaded_file = st.file_uploader("📄 Faça upload do arquivo .txt com o processo LEMBRE-SE DE USAR O CHAT PARA PADRONIZAR O FLUXO", type="txt")
+
+st.markdown("""
+## Como abrir no Bizagi
+
+1. **Abra o Bizagi**  
+   
+2. **Clique em 'Exportar/Importar'**
+
+3. **Na área 'importar' selecione a opção BPMN e selecione o arquivo de download**
+
+""")
 
 if uploaded_file:
     conteudo = uploaded_file.read().decode("utf-8")
