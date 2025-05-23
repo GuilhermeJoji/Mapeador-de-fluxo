@@ -164,7 +164,7 @@ st.set_page_config(page_title="Mapeador de Fluxo BPMN By Guilherme Joji", layout
 st.title("Mapeador de Fluxo BPMN com Lanes e Setas - By Guilherme Joji")
 
 st.markdown("""
-##📝 Como usar este app
+## 📝 Como usar este app
 
 1. **Transcreva o áudio ou vídeo em um `.txt`.**  
    Ferramenta recomendada: link
