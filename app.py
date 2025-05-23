@@ -160,8 +160,13 @@ def gerar_bpmn_com_lanes(passos):
     return xmlstr
 
 # Streamlit UI
-st.set_page_config(page_title="Mapeador de Fluxo BPMN", layout="centered")
+st.set_page_config(page_title="Mapeador de Fluxo BPMN By Guilherme Joji", layout="centered")
 st.title("Mapeador de Fluxo BPMN com Lanes e Setas - By Guilherme Joji")
+
+st.text("Passos para utilização:")
+st.text("1) transcrever o áudio ou vídeo em um '.txt'. Ferramenta útil: ")
+st.text("2) padronize a entrevista em formato de fluxo. Ferramente para padronização: ")
+st.text("3) insira o arquivo '.txt' da etapa '2)' abaixo")
 
 uploaded_file = st.file_uploader("📄 Faça upload do arquivo .txt com o processo LEMBRE-SE DE USAR O CHAT PARA PADRONIZAR O FLUXO", type="txt")
 
