@@ -167,10 +167,10 @@ st.markdown("""
 ## Como usar este app
 
 1. **Transcreva o áudio ou vídeo em um `.txt`.**  
-   Ferramenta recomendada: link
+   Ferramenta recomendada: Programa de transcrição e mapeamento de fluxo oficial
 
 2. **Padronize a entrevista em formato de fluxo.**
-   Ferramenta recomendada: este Chat com o GPT personalizado.
+   Ferramenta recomendada: este Chat com o GPT personalizado: https://chatgpt.com/g/g-680024e92074819187cef33e97595a66-auxiliador-produttare.
 
 3. **Insira o arquivo `.txt` da etapa '2)' abaixo para gerar o BPMN.**
 
